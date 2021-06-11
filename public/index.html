@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bill Spliter</title>
+  <link rel="stylesheet" href="../dist/main.css" />
+</head>
+
+<body>
+  <section id="bill">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 d-flex flex-column my-3">
+          <h1 class="text-center mb-3">BILL SPLITER</h1>
+          <input class="w-50 m-auto mb-3" id="amount" type="number" name="" placeholder="Enter Bill Amount">
+          <input class="w-50 m-auto mb-3" id="people" type="number" name=""
+            placeholder="Enter Number of People Splitting">
+          <button class="btn btn-primary w-50 m-auto mb-3" onclick="calculate()">Calculate</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="displayResult">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="message m-auto text-center">
+            <h3 id="result"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="../dist/app.js"></script>
+  <script src="../src/app.js"></script>
+</body>
+
+</html>
